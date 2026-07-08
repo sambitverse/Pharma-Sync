@@ -134,3 +134,8 @@ npx vercel --prod
 # Inside server directory
 npx vercel --prod
 ```
+## Contributors
+* Sambit Moharana
+* Rohan Kumar Muduli
+* Saumyajeet Pradhan
+* Omm Prakash Behera

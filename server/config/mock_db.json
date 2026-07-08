@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": "admin-uuid-1111-2222-333333333333",
+      "name": "Administrator",
+      "email": "admin@health.com",
+      "password": "$2a$10$R9hK6F.f.gR5wWJ/B.44xeD0u4gR4J4fU.hF1p2iY6m2x2/4S8W5W",
+      "role": "admin",
+      "created_at": "2026-07-07T13:40:05.652Z"
+    },
+    {
+      "id": "doctor-uuid-1111-2222-333333333333",
+      "name": "Dr. Gregory House",
+      "email": "doctor@health.com",
+      "password": "$2a$10$R9hK6F.f.gR5wWJ/B.44xeD0u4gR4J4fU.hF1p2iY6m2x2/4S8W5W",
+      "role": "doctor",
+      "created_at": "2026-07-07T13:40:05.652Z"
+    },
+    {
+      "id": "patient-uuid-1111-2222-333333333333",
+      "name": "John Doe",
+      "email": "patient@health.com",
+      "password": "$2a$10$R9hK6F.f.gR5wWJ/B.44xeD0u4gR4J4fU.hF1p2iY6m2x2/4S8W5W",
+      "role": "patient",
+      "created_at": "2026-07-07T13:40:05.653Z"
+    }
+  ],
+  "patients": [
+    {
+      "id": "patient-profile-uuid",
+      "user_id": "patient-uuid-1111-2222-333333333333",
+      "age": 35,
+      "gender": "Male",
+      "medical_history": "None, general consultation.",
+      "created_at": "2026-07-07T13:40:05.653Z"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doctor-profile-uuid",
+      "user_id": "doctor-uuid-1111-2222-333333333333",
+      "specialization": "Diagnostic Medicine",
+      "created_at": "2026-07-07T13:40:05.653Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "appointment-1",
+      "patient_id": "patient-profile-uuid",
+      "doctor_id": "doctor-profile-uuid",
+      "date": "2026-07-09T13:40:05.653Z",
+      "status": "pending",
+      "created_at": "2026-07-07T13:40:05.653Z"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "prescription-1",
+      "patient_id": "patient-profile-uuid",
+      "doctor_id": "doctor-profile-uuid",
+      "medicines": "Vicodin 5mg (Take 1 tablet every 6 hours)",
+      "notes": "Take after food. Avoid alcohol.",
+      "created_at": "2026-07-07T13:40:05.653Z"
+    }
+  ],
+  "medicines": [
+    {
+      "id": "med-1",
+      "name": "Paracetamol 500mg",
+      "quantity": 120,
+      "created_at": "2026-07-07T13:40:05.653Z"
+    },
+    {
+      "id": "med-2",
+      "name": "Amoxicillin 250mg",
+      "quantity": 8,
+      "created_at": "2026-07-07T13:40:05.653Z"
+    },
+    {
+      "id": "med-3",
+      "name": "Metformin 500mg",
+      "quantity": 45,
+      "created_at": "2026-07-07T13:40:05.653Z"
+    },
+    {
+      "id": "med-4",
+      "name": "Ibuprofen 400mg",
+      "quantity": 90,
+      "created_at": "2026-07-07T13:40:05.653Z"
+    }
+  ]
+}

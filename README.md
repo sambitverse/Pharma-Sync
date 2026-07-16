@@ -34,7 +34,7 @@ Live Deployment: **[pharma-sync-five.vercel.app](https://pharma-sync-five.vercel
 ## 🛠️ Technology Stack
 
 *   **Frontend**: React, Vite, Lucide React (Icons), Vanilla CSS (glassmorphism/curated color palettes).
-*   **Backend**: Node.js, Express.js (REST APIs, CORS middleware, JWT security).
+*   **Backend**: Node.js, Express.js, PostgreSQL (REST APIs, CORS middleware, JWT security).
 *   **Database**: PostgreSQL (hosted on **Supabase**).
 *   **AI Integration**: Google Generative AI (Gemini APIs).
 *   **Hosting**: Vercel (Front-end SPA + Back-end Serverless Functions).
